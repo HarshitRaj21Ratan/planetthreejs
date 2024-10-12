@@ -103,7 +103,7 @@ function throttledWheelHandler(event){
         const headings = document.querySelectorAll("#heading");
         gsap.to(headings,{
             duration: 1,
-            y:'-=${100}%',
+            y:`-=${100}%`,
             ease: "power2.inOut",
         });
 
